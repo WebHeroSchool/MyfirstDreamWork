@@ -1,6 +1,9 @@
 .main-content__title {
   font-family: 'Roboto', sans-serif;
 }
+body {
+  margin: 0;
+}
 .wrapper {
   margin:auto;
   width: 80%;
