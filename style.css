@@ -40,6 +40,7 @@ body {
 .menu {
   display: flex;
   align-items: center;
+  font: normal 18px/21px "Roboto", arial, helvetica, sans-serif;
 }
 .menu__item {
   padding: 0 13px;
@@ -47,6 +48,12 @@ body {
 .menu__item:last-child {
   padding-right: 0;
 }
-
 .main-content__title {
-  font-family: 'Roboto', sans-serif;
+  font: bold 66px/87px "PT serif", arial, helvetica, sans-serif;
+}
+.main-content__subtitle {
+  font: normal 22px/26px "Roboto", arial, helvetica, sans-serif;
+}
+.main-content__button {
+  font: normal 18px/21px "Roboto", arial, helvetica, sans-serif;
+}
