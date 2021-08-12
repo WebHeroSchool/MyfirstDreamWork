@@ -51,7 +51,7 @@ body {
 .menu__item:last-child {
   margin-right: 0;
 }
-.menu__item_active::after {
+.menu__item::after {
   position: absolute;
   content: "";
   left: 0;
@@ -65,7 +65,7 @@ body {
 .menu__item:hover {
   opacity: 0.5;
 }
-.menu__item:hover::after, .menu__item_active:hover{
+.menu__item:hover::after, .menu__item_active::after{
   opacity: 1;
 }
 
