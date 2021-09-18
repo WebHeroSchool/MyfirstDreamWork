@@ -6,10 +6,9 @@ body {
   width: 80%;
 }
 .header {
-  //padding: 40px 0;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 206px;
+  margin-bottom: 100px;
 }
 .logo, .menu{
   display: inline-block;
@@ -71,6 +70,7 @@ body {
 }
 .main {
   padding: 0 63% 100% 0;
+  padding-top: 7%;
   background: top right no-repeat url('img/mainImg.svg');
 }
 .main__title {
