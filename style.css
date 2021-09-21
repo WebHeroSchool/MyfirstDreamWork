@@ -75,10 +75,7 @@ body {
 }
 .main__title {
   margin: 0 0 40px 0;
-  font-size: 66px;
-  line-height: 87px;
-  font-weight: bold;
-  font-family: "pt_serifbold", arial, helvetica, sans-serif;
+    font: bold 66px/87px "pt_serifbold", arial, helvetica, sans-serif;
 }
 .main__title-text_highlight{
   background: #ECF3FF;
