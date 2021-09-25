@@ -17,7 +17,7 @@ body {
 }
 .logo {
   position: relative;
-  padding: 37px 0;
+  padding: 36px 0;
   padding-left: 44px;
   font: bold 24px/32px "pt_serifbold", arial, helvetica, sans-serif;
 }
@@ -77,18 +77,18 @@ body {
   background: top right no-repeat url('img/mainImg.svg');
 }
 .main__title {
-  margin: 0 0 40px 0;
+  margin: 0 0 38px 0;
   font: bold 66px/87px "pt_serifbold", arial, helvetica, sans-serif;
 }
 .main__title-text_highlight{
-  background: #ECF3FF;
+  background: linear-gradient(to top, transparent 8%,#ecf3ff 8%, #ecf3ff 85%, transparent 85% );
 }
 .main__subtitle {
-  margin: 0 0 55px 0;
+  margin: 0 0 62px 0;
   font: normal 22px/26px "Roboto", arial, helvetica, sans-serif;
 }
 .main__button {
-  padding: 15px 22px 20px 37px;
+  padding: 16px 30px 24px 25px;
   color: #FFFFFF;
   background: #0056EC;
   font: normal 18px/21px "Roboto", arial, helvetica, sans-serif;
