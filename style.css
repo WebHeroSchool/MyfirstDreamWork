@@ -84,11 +84,11 @@ body {
   background: linear-gradient(to top, transparent 8%,#ecf3ff 8%, #ecf3ff 85%, transparent 85% );
 }
 .main__subtitle {
-  margin: 0 0 62px 0;
+  margin: 0px 0 59px 0;
   font: normal 22px/26px "Roboto", arial, helvetica, sans-serif;
 }
 .main__button {
-  padding: 16px 30px 24px 25px;
+  padding: 16px 34px 20px 24px;
   color: #FFFFFF;
   background: #0056EC;
   font: normal 18px/21px "Roboto", arial, helvetica, sans-serif;
@@ -105,4 +105,101 @@ body {
   width: 32px;
   height: 8px;
   background: url('img/footerImg.svg');
+}
+@media (max-width: 768px) {
+  .menu {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+  }
+    /*top: 0;
+    left: -100%;
+
+    width: 300px;
+    height: 100%;
+
+    list-style: none;
+    text-align: center;
+
+    background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba (0, 0, 0, .2);
+  }
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+
+    color: #333;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+    text-decoration: none;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }*/
+  .header {
+    margin-bottom: 28px;
+  }
+     #menu__toggle {
+       opacity: 0;
+     }
+     .menu__btn {
+       display: flex;
+       align-items: center;
+       position: fixed;
+       cursor: pointer;
+       z-index: 1;
+     }
+     .menu__btn > span,
+     .menu__btn > span::before;
+     .menu__btn > span::after {
+       display: block;
+       position: absolute;
+       width: 100%;
+       height: 2px;
+       background-color: #616161;
+     }
+     menu__btn > span::before {
+       content: '';
+       top: -8px;
+     }
+     .menu__btn > span::after {
+       content: '';
+       top: 8px;
+     }
+     #menu__toggle:checked ~ .menu__btn > span {
+       transform: rotate(45deg);
+     }
+     #menu__toggle:checked ~ .menu__btn > span::before {
+       top: 0;
+       transform: rotate(0);
+     }
+     #menu__toggle:checked ~ .menu__btn > span::after {
+       top: 0;
+       transform: rotate(90deg);
+     }
+     #menu__toggle:checked ~ .menu {
+       visibility: visible;
+       left: 0:
+     }
+  .main {
+    text-align: center;
+    padding: 74% 0 0;
+    background-size: 74%;
+    background-position: top center;
+  }
+  .main__title {
+    margin-bottom: 44px;
+    font: bold 30px/40px "pt_serifbold", arial, helvetica, sans-serif;
+  }
+  .main__subtitle {
+    margin-bottom: 25px;
+    font: 500 16px/19px "Roboto", arial, helvetica, sans-serif;
+  }
+  .main__button {
+      font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
+  }
+
 }
