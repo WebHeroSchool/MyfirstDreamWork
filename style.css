@@ -106,23 +106,14 @@ body {
   height: 8px;
   background: url('img/footerImg.svg');
 }
+#menu__toggle {
+  opacity: 0;
+}
 @media (max-width: 768px) {
   .menu {
     display: block;
     position: fixed;
     visibility: hidden;
-  }
-    /*top: 0;
-    left: -100%;
-
-    width: 300px;
-    height: 100%;
-
-    list-style: none;
-    text-align: center;
-
-    background-color: #ECEFF1;
-    box-shadow: 1px 0px 6px rgba (0, 0, 0, .2);
   }
   .menu__item {
     display: block;
@@ -138,30 +129,31 @@ body {
   }
   .menu__item:hover {
     background-color: #CFD8DC;
-  }*/
+  }
+  #menu__toggle {
+    opacity: 1;
+  }
   .header {
     margin-bottom: 28px;
   }
-     #menu__toggle {
-       opacity: 0;
-     }
-     .menu__btn {
+  .menu__btn {
        display: flex;
        align-items: center;
        position: fixed;
        cursor: pointer;
        z-index: 1;
      }
-     .menu__btn > span,
-     .menu__btn > span::before;
-     .menu__btn > span::after {
+     /*добавляем гамбургер*/
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
        display: block;
        position: absolute;
        width: 100%;
        height: 2px;
        background-color: #616161;
      }
-     menu__btn > span::before {
+     .menu__btn > span::before {
        content: '';
        top: -8px;
      }
